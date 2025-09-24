@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إنشاء حساب - متجر يوسف</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 متجر يوسف الإلكتروني</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html">المتجر</a>
+      <a href="cart.html">سلة المشتريات</a>
+      <a href="login.html">تسجيل الدخول</a>
+      <a href="register.html" class="active">إنشاء حساب</a>
+      <a href="about.html">حول المتجر</a>
+      <a href="contact.html">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <main class="auth-wrapper">
+    <div class="auth-box">
+      <h2>إنشاء حساب جديد</h2>
+      <form id="registerForm" class="form">
+        <label>الاسم الكامل
+          <input type="text" required>
+        </label>
+        <label>البريد الإلكتروني
+          <input type="email" required>
+        </label>
+        <label>كلمة المرور
+          <input type="password" required minlength="6">
+        </label>
+        <label>تأكيد كلمة المرور
+          <input type="password" required minlength="6">
+        </label>
+        <button type="submit">إنشاء</button>
+      </form>
+      <p>لديك حساب بالفعل؟ <a href="login.html">تسجيل دخول</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="dev">تصميم وتطوير يوسف النخلاني</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

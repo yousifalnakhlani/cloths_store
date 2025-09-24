@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المتجر - متجر يوسف</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 متجر يوسف الإلكتروني</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html" class="active">المتجر</a>
+      <a href="cart.html">سلة المشتريات</a>
+      <a href="login.html">تسجيل الدخول</a>
+      <a href="register.html">إنشاء حساب</a>
+      <a href="about.html">حول المتجر</a>
+      <a href="contact.html">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>جميع المنتجات</h2>
+    <section class="products">
+      <div class="product" data-id="1" data-name="تيشيرت" data-price="120">
+        <img src="images/tshirt.jpg" alt="تيشيرت">
+        <h3>تيشيرت</h3>
+        <p>120 ريال</p>
+        <button class="add-to-cart">إضافة للسلة</button>
+      </div>
+      <div class="product" data-id="2" data-name="بنطلون" data-price="250">
+        <img src="images/pants.jpeg" alt="بنطلون">
+        <h3>بنطلون</h3>
+        <p>250 ريال</p>
+        <button class="add-to-cart">إضافة للسلة</button>
+      </div>
+      <div class="product" data-id="3" data-name="حذاء" data-price="400">
+        <img src="images/shoes.jpg" alt="حذاء">
+        <h3>حذاء</h3>
+        <p>400 ريال</p>
+        <button class="add-to-cart">إضافة للسلة</button>
+      </div>
+    </section>
+
+    <section class="price-table">
+      <h2>جدول الأسعار</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>المنتج</th>
+            <th>الوصف</th>
+            <th>السعر</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>تيشيرت</td>
+            <td>تيشيرت قطن 100%</td>
+            <td>120 ريال</td>
+          </tr>
+          <tr>
+            <td>بنطلون</td>
+            <td>بنطلون جينز رجالي</td>
+            <td>250 ريال</td>
+          </tr>
+          <tr>
+            <td>حذاء</td>
+            <td>حذاء رياضي مريح</td>
+            <td>400 ريال</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="dev">تصميم وتطوير يوسف النخلاني</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
